@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application task</title>
+    </head>
+    <body>
+        <p><h3>Application Form</h3></p>
+        <form>
+            <table>
+                <thead>
+
+                </thead>
+                <tr>
+                    <td>
+                        <label for="name">Full Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name"required minlength="3" maxlength ="15">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Email</label>
+                    </td>
+                    <td> 
+                        <input type="email" id="email">
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Gender" id="male">
+                        <label for="male">Male</label>
+                        <input type ="radio" name="Gender" id="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nationality">Nationality</label>
+                    </td>
+                    <td>
+                        <select id="nationality">
+                            <option>-none-</option>
+                            <option>Indian</option>
+                            <option>Srilankan</option>
+                            <option>Pakistani</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Skills</label>
+                    </td> 
+                    <td>
+                        <input type="checkbox" id="Asp.Net">
+                        <label for="Asp.Net">Asp.Net</label>
+                        <input type="checkbox" id="jQuery">
+                        <label for="jQuery">jQuery</label>
+                        <br>
+                        <input type="checkbox" id="MVC">
+                        <label for="MVC">MVC</label>
+                        <input type="checkbox" id="Sql Server">
+                        <label for="Sql Server">Sql Server</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Post applying for</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Post applying for" id="Trainee">
+                        <label for="Trainee">Trainee</label>
+                        <input type="radio" name="Post applying for" id="Software Engineer">
+                        <label for="Software Engineer">Software Engineer</label>
+                        <br>
+                        <input type="radio" name=" Post applying for" id="Team Leader">
+                        <label for ="Team Leader">Team Leader</label>
+                        <input type="radio" name="Post applying for" id="Project managaer">
+                        <label for ="Project managaer">Project managaer</label>
+                
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Upload Resume</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Paste your resume</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea></textarea>
+                    </td>
+                </tr>
+            </table>
+            <input type="checkbox"id="notify">
+            <label for="notify">Notify me the status via Email</label>
+            <br>
+            <input type="radio" id=" agree">
+            <label for="agree">I agree terms & Conditions</label>
+            <br>
+            <input type="submit">
+            <input type="reset">
+           </form>
+    </body>
+</html>
